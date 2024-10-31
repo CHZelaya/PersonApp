@@ -63,6 +63,7 @@ namespace PersonApp
                 // Try to parse the date
 
                 // For my own understanding, dob is the input string, out indicates that it is an output parameter, if parsing is successfull, it is stored in (OUT TO) parsedDate which NEEDs to be declared previously, as on line 61
+                //Interesting how everything needs to be declared =/
 
 
                 if (DateTime.TryParse(dob, out parsedDate))
